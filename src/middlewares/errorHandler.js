@@ -6,8 +6,8 @@
     // Construir objeto de respuesta de error
     const errorResponse = {
       error: {
-        message: err.message || "Error interno del servidor",
-        code: err.code || "internal_error",
+        message: err.message || 'Error interno del servidor',
+        code: err.code || 'internal_error',
       },
     };
   
